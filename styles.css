@@ -1,0 +1,41 @@
+body {
+    color: black;
+    background: beige;
+    margin:0px;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+header {
+  border-bottom: solid 2px black;
+  padding: 20px;
+  font-size: 32px;
+  color: rgb(0, 23, 128);
+}
+
+section{
+  background: rgb(238,191,84);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.chamada-texto{
+  margin-right: 5%; 
+}
+
+h1{
+  font-size: 40px;
+}
+
+p{
+  font-size: 20px;
+}
+img {
+   height:200px;
+}
+
+.categoria-videos {
+  display:flex;
+  overflow-x: auto;
+}
